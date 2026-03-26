@@ -32,7 +32,10 @@ int main() {
         
         cout << "Select item: ";
         cin >> choice;
-
+if (choice < 0 || choice > menu.size()) {
+    cout << "Invalid choice! Try again.\n";
+    continue;
+    
         if (choice == 0) break;
 
         cout << "Quantity: ";
