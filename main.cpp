@@ -47,6 +47,7 @@ if (choice < 0 || choice > menu.size()) {
 
     cout << "\n----------------------------\n";
     cout << "Total Amount: $" << total << endl;
+        
     cout << "Thank you for shopping!\n";
 
     return 0;
