@@ -47,7 +47,7 @@ if (choice < 0 || choice > menu.size()) {
 
     cout << "\n----------------------------\n";
     cout << "Total Amount: $" << total << endl;
-        
+ cout << "Order Date: 2026-03-28 | Time: 10:15 AM" << endl;       
     cout << "Thank you for shopping!\n";
 
     return 0;
